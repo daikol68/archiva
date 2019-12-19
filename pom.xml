@@ -13,7 +13,7 @@
 
     <parent>
         <groupId>de.daikol</groupId>
-        <artifactId>corporate-pom</artifactId>
+        <artifactId>daikol-pom</artifactId>
         <version>1.0.2</version>
     </parent>
 
