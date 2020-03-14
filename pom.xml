@@ -21,8 +21,8 @@
         <rpm.name>${artifactId}</rpm.name>
         <rpm.user>archiva</rpm.user>
         <rpm.group>archiva</rpm.group>
-        <rpm.uid>504</rpm.uid>
-        <rpm.gid>504</rpm.gid>
+        <rpm.uid>505</rpm.uid>
+        <rpm.gid>505</rpm.gid>
         <rpm.home>/home/${rpm.user}</rpm.home>
     </properties>
 
