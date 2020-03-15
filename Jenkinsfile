@@ -4,6 +4,9 @@ pipeline {
     branch = 'master'
     scmUrl = 'https://github.com/daikol68/archiva'
   }
+  options {
+        buildDiscarder(logRotator(numToKeepStr: '3'))
+  }
   stages {
     stage('checkout git') {
       steps {
